@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		FCC04D5E1CD4696100E93443 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC04D5D1CD4696100E93443 /* AppDelegate.swift */; };
-		FCC04D601CD4696100E93443 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC04D5F1CD4696100E93443 /* ViewController.swift */; };
 		FCC04D631CD4696100E93443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC04D611CD4696100E93443 /* Main.storyboard */; };
 		FCC04D651CD4696100E93443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC04D641CD4696100E93443 /* Assets.xcassets */; };
 		FCC04D681CD4696100E93443 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC04D661CD4696100E93443 /* LaunchScreen.storyboard */; };
 		FCC04D731CD4696100E93443 /* BlendingCultureSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC04D721CD4696100E93443 /* BlendingCultureSwiftTests.swift */; };
 		FCC04D7E1CD4696100E93443 /* BlendingCultureSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC04D7D1CD4696100E93443 /* BlendingCultureSwiftUITests.swift */; };
+		FCC04D941CD4787B00E93443 /* HandVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC04D931CD4787B00E93443 /* HandVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		FCC04D5A1CD4696100E93443 /* BlendingCultureSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlendingCultureSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC04D5D1CD4696100E93443 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FCC04D5F1CD4696100E93443 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FCC04D621CD4696100E93443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCC04D641CD4696100E93443 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCC04D671CD4696100E93443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		FCC04D791CD4696100E93443 /* BlendingCultureSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlendingCultureSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC04D7D1CD4696100E93443 /* BlendingCultureSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendingCultureSwiftUITests.swift; sourceTree = "<group>"; };
 		FCC04D7F1CD4696100E93443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC04D931CD4787B00E93443 /* HandVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +97,11 @@
 		FCC04D5C1CD4696100E93443 /* BlendingCultureSwift */ = {
 			isa = PBXGroup;
 			children = (
-				FCC04D5D1CD4696100E93443 /* AppDelegate.swift */,
-				FCC04D5F1CD4696100E93443 /* ViewController.swift */,
-				FCC04D611CD4696100E93443 /* Main.storyboard */,
-				FCC04D641CD4696100E93443 /* Assets.xcassets */,
-				FCC04D661CD4696100E93443 /* LaunchScreen.storyboard */,
-				FCC04D691CD4696100E93443 /* Info.plist */,
+				FCC04D921CD477C900E93443 /* Applications */,
+				FCC04D8D1CD4774F00E93443 /* Models */,
+				FCC04D8B1CD476DB00E93443 /* Views */,
+				FCC04D8E1CD4775C00E93443 /* Controllers */,
+				FCC04D8C1CD4773F00E93443 /* View Models */,
 			);
 			path = BlendingCultureSwift;
 			sourceTree = "<group>";
@@ -123,6 +122,63 @@
 				FCC04D7F1CD4696100E93443 /* Info.plist */,
 			);
 			path = BlendingCultureSwiftUITests;
+			sourceTree = "<group>";
+		};
+		FCC04D8B1CD476DB00E93443 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FCC04D8C1CD4773F00E93443 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				FCC04D901CD4779600E93443 /* Commons */,
+				FCC04D911CD477B600E93443 /*  Hands */,
+			);
+			name = "View Models";
+			sourceTree = "<group>";
+		};
+		FCC04D8D1CD4774F00E93443 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FCC04D8E1CD4775C00E93443 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCC04D931CD4787B00E93443 /* HandVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FCC04D901CD4779600E93443 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Commons;
+			sourceTree = "<group>";
+		};
+		FCC04D911CD477B600E93443 /*  Hands */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = " Hands";
+			sourceTree = "<group>";
+		};
+		FCC04D921CD477C900E93443 /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				FCC04D5D1CD4696100E93443 /* AppDelegate.swift */,
+				FCC04D611CD4696100E93443 /* Main.storyboard */,
+				FCC04D641CD4696100E93443 /* Assets.xcassets */,
+				FCC04D661CD4696100E93443 /* LaunchScreen.storyboard */,
+				FCC04D691CD4696100E93443 /* Info.plist */,
+			);
+			name = Applications;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +312,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCC04D601CD4696100E93443 /* ViewController.swift in Sources */,
 				FCC04D5E1CD4696100E93443 /* AppDelegate.swift in Sources */,
+				FCC04D941CD4787B00E93443 /* HandVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +540,7 @@
 				FCC04D841CD4696100E93443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCC04D851CD4696100E93443 /* Build configuration list for PBXNativeTarget "BlendingCultureSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +549,7 @@
 				FCC04D871CD4696100E93443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCC04D881CD4696100E93443 /* Build configuration list for PBXNativeTarget "BlendingCultureSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +558,7 @@
 				FCC04D8A1CD4696100E93443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
