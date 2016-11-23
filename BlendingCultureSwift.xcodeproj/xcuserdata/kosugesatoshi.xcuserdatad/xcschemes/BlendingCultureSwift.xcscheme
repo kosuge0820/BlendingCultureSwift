@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -43,8 +43,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FCC04D781CD4696100E93443"
-               BuildableName = "BlendingCultureSwiftUITests.xctest"
-               BlueprintName = "BlendingCultureSwiftUITests"
+               BuildableName = "csa.xctest"
+               BlueprintName = "csa"
                ReferencedContainer = "container:BlendingCultureSwift.xcodeproj">
             </BuildableReference>
          </TestableReference>

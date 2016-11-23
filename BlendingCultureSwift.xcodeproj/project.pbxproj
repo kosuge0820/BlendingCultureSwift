@@ -11,27 +11,7 @@
 		FCC04D631CD4696100E93443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC04D611CD4696100E93443 /* Main.storyboard */; };
 		FCC04D651CD4696100E93443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC04D641CD4696100E93443 /* Assets.xcassets */; };
 		FCC04D681CD4696100E93443 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC04D661CD4696100E93443 /* LaunchScreen.storyboard */; };
-		FCC04D731CD4696100E93443 /* BlendingCultureSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC04D721CD4696100E93443 /* BlendingCultureSwiftTests.swift */; };
-		FCC04D7E1CD4696100E93443 /* BlendingCultureSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC04D7D1CD4696100E93443 /* BlendingCultureSwiftUITests.swift */; };
-		FCC04D941CD4787B00E93443 /* HandVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC04D931CD4787B00E93443 /* HandVC.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FCC04D6F1CD4696100E93443 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FCC04D521CD4696100E93443 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FCC04D591CD4696100E93443;
-			remoteInfo = BlendingCultureSwift;
-		};
-		FCC04D7A1CD4696100E93443 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FCC04D521CD4696100E93443 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FCC04D591CD4696100E93443;
-			remoteInfo = BlendingCultureSwift;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FCC04D5A1CD4696100E93443 /* BlendingCultureSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlendingCultureSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,13 +20,6 @@
 		FCC04D641CD4696100E93443 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCC04D671CD4696100E93443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCC04D691CD4696100E93443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCC04D6E1CD4696100E93443 /* BlendingCultureSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlendingCultureSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCC04D721CD4696100E93443 /* BlendingCultureSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendingCultureSwiftTests.swift; sourceTree = "<group>"; };
-		FCC04D741CD4696100E93443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCC04D791CD4696100E93443 /* BlendingCultureSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlendingCultureSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCC04D7D1CD4696100E93443 /* BlendingCultureSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendingCultureSwiftUITests.swift; sourceTree = "<group>"; };
-		FCC04D7F1CD4696100E93443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCC04D931CD4787B00E93443 /* HandVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,29 +30,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCC04D6B1CD4696100E93443 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCC04D761CD4696100E93443 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FCA91EE61DE5B96100939EDA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FCC04D8E1CD4775C00E93443 /* Controllers */,
+				FCC04D8D1CD4774F00E93443 /* Models */,
+				FCC04D8C1CD4773F00E93443 /* View Models */,
+				FCC04D8B1CD476DB00E93443 /* Views */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		FCC04D511CD4696100E93443 = {
 			isa = PBXGroup;
 			children = (
 				FCC04D5C1CD4696100E93443 /* BlendingCultureSwift */,
-				FCC04D711CD4696100E93443 /* BlendingCultureSwiftTests */,
-				FCC04D7C1CD4696100E93443 /* BlendingCultureSwiftUITests */,
 				FCC04D5B1CD4696100E93443 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				FCC04D5A1CD4696100E93443 /* BlendingCultureSwift.app */,
-				FCC04D6E1CD4696100E93443 /* BlendingCultureSwiftTests.xctest */,
-				FCC04D791CD4696100E93443 /* BlendingCultureSwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,30 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				FCC04D921CD477C900E93443 /* Applications */,
-				FCC04D8D1CD4774F00E93443 /* Models */,
-				FCC04D8B1CD476DB00E93443 /* Views */,
-				FCC04D8E1CD4775C00E93443 /* Controllers */,
-				FCC04D8C1CD4773F00E93443 /* View Models */,
+				FCA91EE61DE5B96100939EDA /* Classes */,
 			);
 			path = BlendingCultureSwift;
-			sourceTree = "<group>";
-		};
-		FCC04D711CD4696100E93443 /* BlendingCultureSwiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				FCC04D721CD4696100E93443 /* BlendingCultureSwiftTests.swift */,
-				FCC04D741CD4696100E93443 /* Info.plist */,
-			);
-			path = BlendingCultureSwiftTests;
-			sourceTree = "<group>";
-		};
-		FCC04D7C1CD4696100E93443 /* BlendingCultureSwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FCC04D7D1CD4696100E93443 /* BlendingCultureSwiftUITests.swift */,
-				FCC04D7F1CD4696100E93443 /* Info.plist */,
-			);
-			path = BlendingCultureSwiftUITests;
 			sourceTree = "<group>";
 		};
 		FCC04D8B1CD476DB00E93443 /* Views */ = {
@@ -129,15 +75,17 @@
 			children = (
 			);
 			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		FCC04D8C1CD4773F00E93443 /* View Models */ = {
 			isa = PBXGroup;
 			children = (
-				FCC04D901CD4779600E93443 /* Commons */,
 				FCC04D911CD477B600E93443 /*  Hands */,
+				FCC04D901CD4779600E93443 /* Commons */,
 			);
 			name = "View Models";
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 		FCC04D8D1CD4774F00E93443 /* Models */ = {
@@ -145,14 +93,15 @@
 			children = (
 			);
 			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		FCC04D8E1CD4775C00E93443 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				FCC04D931CD4787B00E93443 /* HandVC.swift */,
 			);
 			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		FCC04D901CD4779600E93443 /* Commons */ = {
@@ -160,6 +109,7 @@
 			children = (
 			);
 			name = Commons;
+			path = Commons;
 			sourceTree = "<group>";
 		};
 		FCC04D911CD477B600E93443 /*  Hands */ = {
@@ -167,18 +117,20 @@
 			children = (
 			);
 			name = " Hands";
+			path = " Hands";
 			sourceTree = "<group>";
 		};
 		FCC04D921CD477C900E93443 /* Applications */ = {
 			isa = PBXGroup;
 			children = (
 				FCC04D5D1CD4696100E93443 /* AppDelegate.swift */,
-				FCC04D611CD4696100E93443 /* Main.storyboard */,
 				FCC04D641CD4696100E93443 /* Assets.xcassets */,
-				FCC04D661CD4696100E93443 /* LaunchScreen.storyboard */,
 				FCC04D691CD4696100E93443 /* Info.plist */,
+				FCC04D661CD4696100E93443 /* LaunchScreen.storyboard */,
+				FCC04D611CD4696100E93443 /* Main.storyboard */,
 			);
 			name = Applications;
+			path = Applications;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,42 +153,6 @@
 			productReference = FCC04D5A1CD4696100E93443 /* BlendingCultureSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FCC04D6D1CD4696100E93443 /* BlendingCultureSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FCC04D851CD4696100E93443 /* Build configuration list for PBXNativeTarget "BlendingCultureSwiftTests" */;
-			buildPhases = (
-				FCC04D6A1CD4696100E93443 /* Sources */,
-				FCC04D6B1CD4696100E93443 /* Frameworks */,
-				FCC04D6C1CD4696100E93443 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FCC04D701CD4696100E93443 /* PBXTargetDependency */,
-			);
-			name = BlendingCultureSwiftTests;
-			productName = BlendingCultureSwiftTests;
-			productReference = FCC04D6E1CD4696100E93443 /* BlendingCultureSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		FCC04D781CD4696100E93443 /* BlendingCultureSwiftUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FCC04D881CD4696100E93443 /* Build configuration list for PBXNativeTarget "BlendingCultureSwiftUITests" */;
-			buildPhases = (
-				FCC04D751CD4696100E93443 /* Sources */,
-				FCC04D761CD4696100E93443 /* Frameworks */,
-				FCC04D771CD4696100E93443 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FCC04D7B1CD4696100E93443 /* PBXTargetDependency */,
-			);
-			name = BlendingCultureSwiftUITests;
-			productName = BlendingCultureSwiftUITests;
-			productReference = FCC04D791CD4696100E93443 /* BlendingCultureSwiftUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -244,19 +160,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "kosuge satoshi";
 				TargetAttributes = {
 					FCC04D591CD4696100E93443 = {
 						CreatedOnToolsVersion = 7.3;
-					};
-					FCC04D6D1CD4696100E93443 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = FCC04D591CD4696100E93443;
-					};
-					FCC04D781CD4696100E93443 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = FCC04D591CD4696100E93443;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -274,8 +183,6 @@
 			projectRoot = "";
 			targets = (
 				FCC04D591CD4696100E93443 /* BlendingCultureSwift */,
-				FCC04D6D1CD4696100E93443 /* BlendingCultureSwiftTests */,
-				FCC04D781CD4696100E93443 /* BlendingCultureSwiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -291,20 +198,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCC04D6C1CD4696100E93443 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCC04D771CD4696100E93443 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -313,40 +206,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCC04D5E1CD4696100E93443 /* AppDelegate.swift in Sources */,
-				FCC04D941CD4787B00E93443 /* HandVC.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCC04D6A1CD4696100E93443 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FCC04D731CD4696100E93443 /* BlendingCultureSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCC04D751CD4696100E93443 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FCC04D7E1CD4696100E93443 /* BlendingCultureSwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FCC04D701CD4696100E93443 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FCC04D591CD4696100E93443 /* BlendingCultureSwift */;
-			targetProxy = FCC04D6F1CD4696100E93443 /* PBXContainerItemProxy */;
-		};
-		FCC04D7B1CD4696100E93443 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FCC04D591CD4696100E93443 /* BlendingCultureSwift */;
-			targetProxy = FCC04D7A1CD4696100E93443 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FCC04D611CD4696100E93443 /* Main.storyboard */ = {
@@ -355,6 +218,7 @@
 				FCC04D621CD4696100E93443 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		FCC04D661CD4696100E93443 /* LaunchScreen.storyboard */ = {
@@ -363,6 +227,7 @@
 				FCC04D671CD4696100E93443 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -382,8 +247,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -428,8 +295,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -448,6 +317,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -457,10 +327,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = BlendingCultureSwift/Info.plist;
+				INFOPLIST_FILE = BlendingCultureSwift/Applications/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "satoshi-kosuge.BlendingCultureSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -468,56 +339,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = BlendingCultureSwift/Info.plist;
+				INFOPLIST_FILE = BlendingCultureSwift/Applications/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "satoshi-kosuge.BlendingCultureSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		FCC04D861CD4696100E93443 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = BlendingCultureSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "satoshi-kosuge.BlendingCultureSwiftTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlendingCultureSwift.app/BlendingCultureSwift";
-			};
-			name = Debug;
-		};
-		FCC04D871CD4696100E93443 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = BlendingCultureSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "satoshi-kosuge.BlendingCultureSwiftTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlendingCultureSwift.app/BlendingCultureSwift";
-			};
-			name = Release;
-		};
-		FCC04D891CD4696100E93443 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = BlendingCultureSwiftUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "satoshi-kosuge.BlendingCultureSwiftUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = BlendingCultureSwift;
-			};
-			name = Debug;
-		};
-		FCC04D8A1CD4696100E93443 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = BlendingCultureSwiftUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "satoshi-kosuge.BlendingCultureSwiftUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = BlendingCultureSwift;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -538,24 +364,6 @@
 			buildConfigurations = (
 				FCC04D831CD4696100E93443 /* Debug */,
 				FCC04D841CD4696100E93443 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FCC04D851CD4696100E93443 /* Build configuration list for PBXNativeTarget "BlendingCultureSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FCC04D861CD4696100E93443 /* Debug */,
-				FCC04D871CD4696100E93443 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FCC04D881CD4696100E93443 /* Build configuration list for PBXNativeTarget "BlendingCultureSwiftUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FCC04D891CD4696100E93443 /* Debug */,
-				FCC04D8A1CD4696100E93443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
