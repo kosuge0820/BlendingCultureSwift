@@ -1,5 +1,5 @@
 import UIKit
 
-class SourceType: NSObject {
+protocol SourceType {
 
 }

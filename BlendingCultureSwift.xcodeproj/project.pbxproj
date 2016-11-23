@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FC8B31951DE5BF070042BE32 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B31941DE5BF070042BE32 /* Card.swift */; };
-		FC8B31981DE5BF240042BE32 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B31961DE5BF240042BE32 /* CardCell.swift */; };
-		FC8B31991DE5BF240042BE32 /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8B31971DE5BF240042BE32 /* CardCell.xib */; };
 		FC8B319B1DE5BF730042BE32 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B319A1DE5BF730042BE32 /* DataSource.swift */; };
 		FC8B319E1DE5BFD10042BE32 /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B319D1DE5BFD10042BE32 /* DataType.swift */; };
 		FC8B31A01DE5BFEE0042BE32 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B319F1DE5BFEE0042BE32 /* Deck.swift */; };
@@ -18,6 +16,12 @@
 		FC8B31A61DE5C01E0042BE32 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B31A51DE5C01E0042BE32 /* Rank.swift */; };
 		FC8B31A81DE5C03A0042BE32 /* SourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B31A71DE5C03A0042BE32 /* SourceType.swift */; };
 		FC8B31AA1DE5C09D0042BE32 /* HandTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B31A91DE5C09D0042BE32 /* HandTableViewController.swift */; };
+		FC8B31AC1DE5C2600042BE32 /* HandTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B31AB1DE5C2600042BE32 /* HandTableView.swift */; };
+		FC8B31AF1DE5CBBB0042BE32 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B31AE1DE5CBBB0042BE32 /* UITableView+Extension.swift */; };
+		FC8B31B11DE5CBCD0042BE32 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B31B01DE5CBCD0042BE32 /* NSObject+Extension.swift */; };
+		FC8B31B31DE5CD7E0042BE32 /* Suit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B31B21DE5CD7E0042BE32 /* Suit.swift */; };
+		FC8B31B61DE5DBD90042BE32 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B31B41DE5DBD90042BE32 /* CardCell.swift */; };
+		FC8B31B71DE5DBD90042BE32 /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8B31B51DE5DBD90042BE32 /* CardCell.xib */; };
 		FCC04D5E1CD4696100E93443 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC04D5D1CD4696100E93443 /* AppDelegate.swift */; };
 		FCC04D631CD4696100E93443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC04D611CD4696100E93443 /* Main.storyboard */; };
 		FCC04D651CD4696100E93443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC04D641CD4696100E93443 /* Assets.xcassets */; };
@@ -26,8 +30,6 @@
 
 /* Begin PBXFileReference section */
 		FC8B31941DE5BF070042BE32 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		FC8B31961DE5BF240042BE32 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
-		FC8B31971DE5BF240042BE32 /* CardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
 		FC8B319A1DE5BF730042BE32 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataSource.swift; path = BlendingCultureSwift/Classes/DataSources/DataSource.swift; sourceTree = SOURCE_ROOT; };
 		FC8B319D1DE5BFD10042BE32 /* DataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataType.swift; path = Protocols/DataType.swift; sourceTree = "<group>"; };
 		FC8B319F1DE5BFEE0042BE32 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
@@ -36,6 +38,12 @@
 		FC8B31A51DE5C01E0042BE32 /* Rank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
 		FC8B31A71DE5C03A0042BE32 /* SourceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceType.swift; sourceTree = "<group>"; };
 		FC8B31A91DE5C09D0042BE32 /* HandTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandTableViewController.swift; sourceTree = "<group>"; };
+		FC8B31AB1DE5C2600042BE32 /* HandTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandTableView.swift; sourceTree = "<group>"; };
+		FC8B31AE1DE5CBBB0042BE32 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		FC8B31B01DE5CBCD0042BE32 /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		FC8B31B21DE5CD7E0042BE32 /* Suit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suit.swift; sourceTree = "<group>"; };
+		FC8B31B41DE5DBD90042BE32 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		FC8B31B51DE5DBD90042BE32 /* CardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
 		FCC04D5A1CD4696100E93443 /* BlendingCultureSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlendingCultureSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC04D5D1CD4696100E93443 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCC04D621CD4696100E93443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +71,15 @@
 			name = Protocols;
 			sourceTree = "<group>";
 		};
+		FC8B31AD1DE5CBA80042BE32 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FC8B31AE1DE5CBBB0042BE32 /* UITableView+Extension.swift */,
+				FC8B31B01DE5CBCD0042BE32 /* NSObject+Extension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		FCA91EE61DE5B96100939EDA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +88,7 @@
 				FCC04D8D1CD4774F00E93443 /* Models */,
 				FCC04D8C1CD4773F00E93443 /* DataSources */,
 				FCC04D8B1CD476DB00E93443 /* Views */,
+				FC8B31AD1DE5CBA80042BE32 /* Extensions */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -103,8 +121,9 @@
 		FCC04D8B1CD476DB00E93443 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FC8B31961DE5BF240042BE32 /* CardCell.swift */,
-				FC8B31971DE5BF240042BE32 /* CardCell.xib */,
+				FC8B31AB1DE5C2600042BE32 /* HandTableView.swift */,
+				FC8B31B41DE5DBD90042BE32 /* CardCell.swift */,
+				FC8B31B51DE5DBD90042BE32 /* CardCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -127,6 +146,7 @@
 				FC8B319F1DE5BFEE0042BE32 /* Deck.swift */,
 				FC8B31A11DE5C0020042BE32 /* Hand.swift */,
 				FC8B31A51DE5C01E0042BE32 /* Rank.swift */,
+				FC8B31B21DE5CD7E0042BE32 /* Suit.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -213,7 +233,7 @@
 				FCC04D681CD4696100E93443 /* LaunchScreen.storyboard in Resources */,
 				FCC04D651CD4696100E93443 /* Assets.xcassets in Resources */,
 				FCC04D631CD4696100E93443 /* Main.storyboard in Resources */,
-				FC8B31991DE5BF240042BE32 /* CardCell.xib in Resources */,
+				FC8B31B71DE5DBD90042BE32 /* CardCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,16 +245,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC8B31A01DE5BFEE0042BE32 /* Deck.swift in Sources */,
+				FC8B31B31DE5CD7E0042BE32 /* Suit.swift in Sources */,
 				FCC04D5E1CD4696100E93443 /* AppDelegate.swift in Sources */,
 				FC8B319E1DE5BFD10042BE32 /* DataType.swift in Sources */,
-				FC8B31981DE5BF240042BE32 /* CardCell.swift in Sources */,
 				FC8B31A21DE5C0020042BE32 /* Hand.swift in Sources */,
+				FC8B31B61DE5DBD90042BE32 /* CardCell.swift in Sources */,
 				FC8B31A41DE5C0120042BE32 /* HandDataSource.swift in Sources */,
 				FC8B31A81DE5C03A0042BE32 /* SourceType.swift in Sources */,
 				FC8B31AA1DE5C09D0042BE32 /* HandTableViewController.swift in Sources */,
+				FC8B31AC1DE5C2600042BE32 /* HandTableView.swift in Sources */,
 				FC8B31A61DE5C01E0042BE32 /* Rank.swift in Sources */,
 				FC8B319B1DE5BF730042BE32 /* DataSource.swift in Sources */,
 				FC8B31951DE5BF070042BE32 /* Card.swift in Sources */,
+				FC8B31AF1DE5CBBB0042BE32 /* UITableView+Extension.swift in Sources */,
+				FC8B31B11DE5CBCD0042BE32 /* NSObject+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

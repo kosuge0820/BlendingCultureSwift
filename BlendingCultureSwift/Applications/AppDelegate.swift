@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  BlendingCultureSwift
-//
-//  Created by 小菅仁士 on 2016/04/30.
-//  Copyright © 2016年 kosuge satoshi. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
