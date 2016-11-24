@@ -4,4 +4,3 @@ protocol DataType {
     func deleteItem(at index: Int) -> Self
     func moveItem(from index: Int, toIndex: Int) -> Self
 }
-

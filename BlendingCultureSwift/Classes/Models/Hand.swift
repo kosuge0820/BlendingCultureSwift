@@ -30,10 +30,8 @@ struct Hand: DataType {
         return Hand(deck: deck, cards: mutableCards)
     }
     
-    
     func moveItem(from index: Int, toIndex: Int) -> Hand {
-        return deleteItem(at: index)
-            .insertItem(card: cards[index], atIndex: toIndex)
+        return deleteItem(at: index).insertItem(card: cards[index], atIndex: toIndex)
     }
     
     fileprivate func insertItem(card: Card, atIndex index: Int) -> Hand {
@@ -42,3 +40,6 @@ struct Hand: DataType {
         return Hand(deck: deck, cards: mutableCards)
     }
 }
+
+
+

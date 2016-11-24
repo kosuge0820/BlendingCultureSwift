@@ -2,6 +2,7 @@ import UIKit
 
 class DataSource: NSObject, SourceType {
     var dataObject: DataType = Hand()
+    
     var conditionForAdding: Bool {
         return false
     }
@@ -34,4 +35,9 @@ extension DataSource: UITableViewDataSource {
             deleteRow(at: indexPath, from: tableView)
         }
     }
+    
+    func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        dataObject = dataObject.moveItem(from: sourceIndexPath.row, toIndex: destinationIndexPath.row)
+    }
 }
+

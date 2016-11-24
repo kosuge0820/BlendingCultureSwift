@@ -2,7 +2,7 @@ import UIKit
 
 final class HandTableViewController: UITableViewController {
     fileprivate var dataSource = HandDataSource(dataObject: Hand())
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.registerCell(CardCell.self)
@@ -15,3 +15,12 @@ final class HandTableViewController: UITableViewController {
         dataSource.addItemTo(tableView: tableView)
     }
 }
+
+
+
+
+
+
+
+
+
